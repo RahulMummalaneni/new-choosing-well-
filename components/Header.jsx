@@ -39,6 +39,14 @@ const dropdowns = [
       { name: 'Unseen Sundays', href: '/extraordinary/unseen-sundays' },
       { name: 'Mundane Musings', href: '/extraordinary/mundane-musings' }
     ]
+  },
+  {
+    label: 'About',
+    icon: '04.',
+    tag: 'The person behind the practice',
+    description:
+      'Learn more about Nithya, the Choosing Well practice, and the work that grows from it.',
+    links: [{ name: 'My Work', href: '/my-work' }]
   }
 ];
 
