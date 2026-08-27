@@ -41,12 +41,16 @@ const dropdowns = [
     ]
   },
   {
-    label: 'About',
+    label: 'My Work',
     icon: '04.',
-    tag: 'The person behind the practice',
+    tag: 'The work I do',
     description:
-      'Learn more about Nithya, the Choosing Well practice, and the work that grows from it.',
-    links: [{ name: 'My Work', href: '/my-work' }]
+      'Explore the projects and initiatives I am building.',
+    links: [
+      { name: 'About', href: '/about' },
+      { name: 'Consulting', href: '/consulting' },
+      { name: 'Intelligence', href: '/intelligence' }
+    ]
   }
 ];
 
@@ -75,7 +79,6 @@ export default function Header() {
         <nav id="site-navigation" className={`main-nav${mobileMenuOpen ? ' mobile-open' : ''}`}>
           <a href="/#what" onClick={() => setMobileMenuOpen(false)}>What is Choosing Well</a>
           <a href="/#foryou" onClick={() => setMobileMenuOpen(false)}>Is this for you</a>
-          <a href="/#questions" onClick={() => setMobileMenuOpen(false)}>Ten Questions</a>
           {dropdowns.map((d) => (
             <NavDropdown key={d.label} {...d} />
           ))}
