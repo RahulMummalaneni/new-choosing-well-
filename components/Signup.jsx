@@ -10,11 +10,7 @@ export default function Signup() {
           Receive the reflections, the stories, and the questions worth sitting with, written
           to help you choose with both your head and your heart.
         </p>
-        {/*
-          TODO: replace the href below with your real WhatsApp Channel invite link
-          once created (format: https://whatsapp.com/channel/XXXXXXXXXXXXXXXXXXXXX)
-        */}
-        <a className="btn whatsapp-btn" href="#" target="_blank" rel="noopener noreferrer">
+        <a className="btn whatsapp-btn" href="https://whatsapp.com/channel/0029VbDREZd05MUjozcmsA1I" target="_blank" rel="noopener noreferrer">
           Join on WhatsApp Channel
         </a>
       </Reveal>

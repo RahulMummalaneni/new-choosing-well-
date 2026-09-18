@@ -8,8 +8,9 @@ export default function Page() {
         <h1>The Stories</h1>
         <p className="lede">
           Thirty portraits of people who chose one north star, and let that single conscious
-          choice shape who they became. Content for this page is coming soon.
+          choice shape who they became.
         </p>
+        <p className="page-status">The Stories are coming soon.</p>
       </div>
     </section>
   );

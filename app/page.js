@@ -1,4 +1,5 @@
 import Hero from '../components/Hero';
+import Journey from '../components/Journey';
 import WhatIsChoosingWell from '../components/WhatIsChoosingWell';
 import Tensions from '../components/Tensions';
 import ForYou from '../components/ForYou';
@@ -11,6 +12,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <Journey />
       <WhatIsChoosingWell />
       <Tensions />
       <ForYou />

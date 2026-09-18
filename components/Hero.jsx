@@ -60,7 +60,7 @@ export default function Hero() {
           aria-label="Portrait of Nithya Kishore"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/nithya-portrait.jpg" alt="Portrait of Nithya Kishore" />
+          <img src="/images/nithya.jpeg" alt="Portrait of Nithya Kishore" />
           <div className="portrait-caption">Seeker &amp; Strategist · Founder, Knowmatrix</div>
         </div>
       </div>
