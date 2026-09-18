@@ -7,8 +7,9 @@ export default function Page() {
         <span className="eyebrow">Resources</span>
         <h1>Frameworks</h1>
         <p className="lede">
-          Structured tools for your crossroads. Content for this page is coming soon.
+          Structured tools for your crossroads.
         </p>
+        <p className="page-status">Frameworks are coming soon.</p>
       </div>
     </section>
   );

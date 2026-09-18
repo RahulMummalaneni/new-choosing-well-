@@ -27,7 +27,7 @@ export default function Footer() {
             <h4>Explore</h4>
             <ul>
               <li><a href="/#questions">The Ten Questions</a></li>
-              <li><Link href="/resources/frameworks">Workshops &amp; Frameworks</Link></li>
+              <li><Link href="/resources/workshops">Workshops</Link></li>
               <li><a href="/#signup">Contact</a></li>
             </ul>
           </div>

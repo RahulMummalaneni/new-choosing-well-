@@ -25,8 +25,7 @@ const dropdowns = [
       'Explore the resources that get to the heart of what it means to choose well, made for real decisions, held in real lives.',
     links: [
       { name: 'Workshops', href: '/resources/workshops' },
-      { name: 'Articles', href: '/resources/articles' },
-      { name: 'Frameworks', href: '/resources/frameworks' }
+      { name: 'Articles', href: '/resources/articles' }
     ]
   },
   {
